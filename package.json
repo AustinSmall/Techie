@@ -1,35 +1,40 @@
 {
-  "name": "the-tech-blog",
+  "name": "tech-blog",
   "version": "1.0.0",
-  "description": "tech-blog",
+  "description": "",
   "main": "server.js",
+  "directories": {
+    "doc": "doc"
+  },
   "scripts": {
-      "test": "jest",
-      "start": "node server.js",
-      "watch": "nodemon server.js",
-      "seed": "node seeds/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
-      "type": "",
-      "url": ""
+    "type": "git",
+    "url": "git+https://github.com/AustinSmall/Techie.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-      "url": ""
+    "url": "https://github.com/AustinSmall/Techie/issues"
   },
+  "homepage": "https://github.com/AustinSmall/Techie#readme",
   "dependencies": {
-      "bcrypt": "^5.0.0",
-      "connect-session-sequelize": "^6.1.1",
-      "dotenv": "^8.2.0",
-      "express": "^4.17.1",
-      "express-handlebars": "^4.0.4",
-      "express-session": "^1.17.1",
-      "mysql2": "^2.1.0",
-      "sequelize": "^5.21.12"
+    "bcrypt": "^5.1.0",
+    "connect": "^3.7.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "seed": "^0.4.4",
+    "sequelize": "^6.25.6"
   },
   "devDependencies": {
-      "jest": "^26.4.2",
-      "nodemon": "^2.0.4"
+    "jest": "^29.3.1"
   }
 }
